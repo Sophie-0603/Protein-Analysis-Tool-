@@ -12,7 +12,7 @@ This is a tool written in Python that can take a protein sequence and feedback i
 
 To run:
 
-1. Download the two Python scripts 'protein_analysis_tool.py' and 'FASTA_file_open.py' in addition to a protein sequence in the FASTA file format (the BamA protein FASTA file is supplied but any FASTA file will be applicable). Ensure all the files are in the same directory. The script 'protein_analysis_tool.py' is a module that contains functions that calculate the factors listed above (e.g molecular weight) where as 'FASTA_file_open.py' allows the user to insert the sequence FASTA file and import the required functions. 
+1. Download the two Python scripts 'protein_analysis_tool.py' and 'FASTA_file_open.py' in addition to a protein sequence in the FASTA file format (the BamA protein FASTA file is supplied but any FASTA file will be applicable, the BamA file name is 'bama.fasta). Ensure all the files are in the same directory. The script 'protein_analysis_tool.py' is a module that contains functions that calculate the factors listed above (e.g molecular weight) where as 'FASTA_file_open.py' allows the user to insert the sequence FASTA file and import the required functions. 
 
 2. In the FASTA_file_open.py script, add the name of the FASTA file after sequence_file (line 7). For example, sequence_file = "BamA.fasta" .
 
