@@ -14,7 +14,7 @@ To run:
 
 1. Download the two Python scripts 'protein_analysis_tool.py' and 'FASTA_file_open.py' in addition to a protein sequence in the FASTA file format (the BamA protein FASTA file is supplied but any FASTA file will be applicable, the BamA file name is 'bama.fasta'). Ensure all the files are in the same directory. The script 'protein_analysis_tool.py' is a module that contains functions that calculate the factors listed above (e.g molecular weight) where as 'FASTA_file_open.py' allows the user to insert the sequence FASTA file and import the required functions. 
 
-2. In the FASTA_file_open.py script, add the name of the FASTA file after sequence_file (line 7). For example, sequence_file = "bama.fasta" .
+2. In the FASTA_file_open.py script, add the name of the FASTA file after sequence_file (sequence_file = "Insert FASTA file name here"). For example, sequence_file = "bama.fasta" .
 
 3. Run the script in the terminal and you will be given an output of information about the target protein. The first line of the FASTA file including protein information such as name is listed as the first line of output to avoid confusion if multiple proteins are analysed sequentially. This is then followed by information about the target protein separated by headings in bold. The data itself will be displayed in black text, where as extra information to understand the data will be displayed in red. 
 
